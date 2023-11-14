@@ -1,6 +1,6 @@
 {
   "name": "change-case-cjs",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Exposes the 'change-case' module as a cjs dependency",
   "main": "index.js",
   "keywords": [
@@ -9,10 +9,8 @@
   ],
   "author": "Phil Olson",
   "license": "SEE LICENSE IN license.txt",
-  "peerDependencies": {
-    "change-case": "5.x"
-  },
   "dependencies": {
+    "change-case": "https://gitpkg.now.sh/olsonpm/change-case/packages/change-case?fix-ems-compatible",
     "fix-esm": "^1.0.1"
   }
 }
